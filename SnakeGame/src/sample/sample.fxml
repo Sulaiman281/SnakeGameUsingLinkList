@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="canvas" height="500.0" layoutX="7.0" width="700.0" />
+      <Text fx:id="score_text" fill="WHITE" layoutX="28.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score: 00">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="584.0" layoutX="119.0" layoutY="500.0" startX="-108.0" stroke="WHITE" />
+      <Line endX="584.0" endY="-25.0" layoutX="123.0" layoutY="517.0" startX="584.0" startY="-510.0" stroke="WHITE" />
+   </children>
+</AnchorPane>
